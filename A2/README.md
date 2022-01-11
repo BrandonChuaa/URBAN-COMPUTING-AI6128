@@ -13,6 +13,8 @@ network (together with different colors or separately).
 segments, whose average travelling time as indicated by the trajectory data are the largest (those road segments that are traversed by no trajectories can be ignored); and (3) and visualize the
 road segments returned in (1) and (2) on the road network separately.
 
+- (bonus and optional). If possible, identify those cases where the map matching algorithm do not work well, think of some solutions for the identified cases and implement the new ideas into the open source tools and perform the map matching task on the trajectory data again and compare the mapped routes before and after the changes are made.
+
 # Dataset
 - Road network data (https://www.openstreetmap.org/). Some Python code that can be used for downloading road network from OpenStreetMap can be found here: https://github.com/cyang-kth/fmm/blob/master/example/osmnx_example/download_network.ipynb
 - The trajectory data can be downloaded from Kaggle (https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i/data)
